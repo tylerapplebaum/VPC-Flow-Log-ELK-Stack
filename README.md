@@ -75,6 +75,7 @@ Follow [this official guide](https://aws.amazon.com/blogs/aws/vpc-flow-logs-log-
 
 You'll receive an error similar to below.
 
+```
 "index": {
     "_index": "cwl-vpcflowlogs-2020.03.11",
     "_type": "VPCFlowLogs",
@@ -85,3 +86,4 @@ You'll receive an error similar to below.
         "reason": "Rejecting mapping update to [cwl-vpcflowlogs-2020.03.11] as the final mapping would have more than 1 type: [_doc, VPCFlowLogs]"
     }
 }
+```
